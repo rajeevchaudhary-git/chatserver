@@ -12,10 +12,10 @@ const mongoose = require('mongoose');
 const app = express();
 
 const allowedOrigins = [
-  "https://clientv2-omega.vercel.app/",
+  "https://clientv2-omega.vercel.app",
   "http://localhost:5173",
-  "https://clientv2-git-main-rajeevchaudhary-xs-projects.vercel.app/",
-  "https://clientv2-8mcrikbpm-rajeevchaudhary-xs-projects.vercel.app/"
+  "https://clientv2-git-main-rajeevchaudhary-xs-projects.vercel.app",
+  "https://clientv2-8mcrikbpm-rajeevchaudhary-xs-projects.vercel.app"
 ]
 
 
