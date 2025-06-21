@@ -3,8 +3,7 @@ const mongoose = require("mongoose");
 require("dotenv").config();
 
 const dbConnect = () => {
-    // 9W@ybb-fuMLjDAW    // mongodb+srv://dbusr:9W@ybb-fuMLjDAW@chatapp.gjabb.mongodb.net/
-    mongoose.connect("mongodb+srv://dbusr:Rajeev123@chatapp.gjabb.mongodb.net", {
+    mongoose.connect(process.env.mongo_url, {
         // useNewUrlParser:true,
         // useUnifiedTopology: true,
     })
